@@ -1,18 +1,21 @@
-const add = function() {
-	
+const add = function(num, num1) {
+  return num + num1;	
 };
 
-const subtract = function() {
-	
+const subtract = function(num, num1) {
+  return num - num1;	
 };
 
-const sum = function() {
-	
+const sum = function(array) {
+  let total=0
+  for (let i = 0; i < array.length; i++) {
+    total+=array[i]
+  }
+  return total;
 };
 
-const multiply = function() {
-
-};
+function multiply() {
+}
 
 const power = function() {
 	
